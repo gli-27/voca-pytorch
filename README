@@ -1,0 +1,9 @@
+the file foler is too large to upload since there are pretrained model inside. 
+
+The file Guo_training.py is the main training file, use this file to run the main model.
+
+All data_loader, networks and model files are in the utils folder, including the original TensorFlow model. 
+
+The audio_loader.py is the data_loader file, the Batcher provides every batch for training and validation. The DataHandler finishes some preprocess steps.
+The Guo_network.py includes the voca model's networks, and the input dimension is slightly different from their original one since the implementation, but the operation and process should be the same.
+The Guo_model.py file is the main model creation file.
