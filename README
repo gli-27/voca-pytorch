@@ -1,3 +1,5 @@
+The model is uploaded into the serve, and the path is ~/voca. The python interpreter to run this model will need to use "source ~/.virtualenvs/voca/bin/activate" to activate.
+
 the file foler is too large to upload since there are pretrained model inside. 
 
 The file Guo_training.py is the main training file, use this file to run the main model.
